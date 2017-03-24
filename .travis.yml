@@ -1,13 +1,13 @@
 language: python
-python
+python:
 - "2.6"
 - "2.7"
 - "3.3"
 - "3.4"
 - "3.5"
-install
+install:
 - echo "THis is install process"
-script
+script:
 - echo "This is script process"
 
 
